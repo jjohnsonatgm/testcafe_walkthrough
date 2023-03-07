@@ -1,0 +1,37 @@
+Order to learn:
+1. The DOM
+    a. DevTools Element tab
+    b. Emulate a focused page option in Chrome (this will keep dropdowns active while you're grabbing selectors)
+2. How to create Selector paths using CSS Selectors
+    a. Using Classes
+    b. Using ID's
+    c. Using element attributes
+    d. Using Selector('').find to find child nodes
+    e. Using wildcards in selectors
+3. TestCafe basic interactions
+    a. t.click
+    b. t.typeText
+    c. Getting text from the page
+        1. .innerText
+    d. t.hover
+    e. t.doubleClick()
+    f. t.getCookies()
+    g. t.wait()
+    h. t.setTextSpeed()
+4. Assertions on page state (t.expect)
+    a. .ok
+    b. .notOk
+    c. .eql
+5. Understanding TestCafe errors
+    a. Update some of our previous selectors to invalid ones
+    b. Race Conditions and t.wait()
+    c. Waiting for an element to be visible
+    d. Knowing where to get help
+        1. TestCafe docs
+        2. Stack Overflow
+        3. GitHub
+6. Page Object Model
+    a. Learn how to create classes
+    b. Create a re-usable page for the GM Login page
+7. Data Driven Development
+8. Composite Design Pattern + POM
